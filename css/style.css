@@ -14,3 +14,10 @@ h2{
     text-align: center;
     font-size: 15px;
 }
+.inputs p{
+    margin-left: 80px;
+}
+button{
+    color: brown;
+    background-color: darkgray;
+}
