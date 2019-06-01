@@ -38,7 +38,7 @@ Input 3: 16
 Output Example: Scalene
 ## Setup/Installation Requirements
 * Open this link on a supported web broser to interract with the application:
-
+    https://brayomumo.github.io/triangle-tracker/
 To view the source code :
 * install Atom/Visual studio code
 * git init
