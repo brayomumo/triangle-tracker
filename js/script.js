@@ -4,7 +4,7 @@ function tracker(){
     var sideC =parseInt(document.getElementById("sideC").value);
 
     var results=document.querySelector("#final");
-    if(sideA <=0 && sideB<=0 && sideC <=0){
+    if(sideA <=0 || sideB<=0 || sideC <=0){
         results.innerHTML="values cannot be null";
     }else if((sideA==sideB && sideB!=sideC ) || (sideA!=sideB && sideC==sideA) || (sideC==sideB && sideC!=sideA)){
         results.innerHTML="isosceles";
