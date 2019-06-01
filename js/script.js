@@ -5,7 +5,7 @@ function tracker(){
 
     var results=document.querySelector("#final");
     if(sideA <=0 || sideB<=0 || sideC <=0){
-        results.innerHTML="values cannot be null";
+        results.innerHTML="values cannot be zero";
     }else if (sideA ==sideB && sideB==sideC) {
         results.innerHTML="Equilateral";
     }else if((sideA+sideB)<=sideC || (sideB+sideC)<=sideA || (sideA+sideC)<=sideB ){
