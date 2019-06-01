@@ -4,7 +4,7 @@
 ## Description
 This ia an application which reads the user's inputs and determines which type of triangle can be formed if the measurements are used to form a triangle. The application checks if the measurements can form an equilateral, isosceles, scalene or cannot form a a triangle.
 
-##Behaviour Driven Development
+## Behaviour Driven Development
 The program should return "Values cannot be null" when any zero is entered.
 Input Example:0
 Output Example: Please enter a number
