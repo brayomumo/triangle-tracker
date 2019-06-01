@@ -17,5 +17,8 @@ function tracker(){
         }else {
             results.innerHTML="scalene";
         }
-    }    
+    }   
 }
+function refresh() {
+    location.reload();
+  }
