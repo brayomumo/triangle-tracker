@@ -6,17 +6,14 @@ function tracker(){
     var results=document.querySelector("#final");
     if(sideA <=0 || sideB<=0 || sideC <=0){
         results.innerHTML="values cannot be null";
-    }else if((sideA==sideB && sideB!=sideC ) || (sideA!=sideB && sideC==sideA) || (sideC==sideB && sideC!=sideA)){
-        results.innerHTML="isosceles";
     }else if (sideA ==sideB && sideB==sideC) {
-
         results.innerHTML="Equilateral";
-    }else {
-        if((sideA+sideB)<=sideC || (sideB+sideC)<=sideA || (sideA+sideC)<=sideB ){
+    }else if((sideA+sideB)<=sideC || (sideB+sideC)<=sideA || (sideA+sideC)<=sideB ){
             results.innerHTML= "cannot form a triangle"
-        }else {
+    }else if((sideA==sideB && sideB!=sideC ) || (sideA!=sideB && sideC==sideA) || (sideC==sideB && sideC!=sideA)){
+            results.innerHTML="isosceles";
+    }else{
             results.innerHTML="scalene";
-        }
     }   
 }
 function refresh() {
