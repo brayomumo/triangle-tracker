@@ -1,4 +1,8 @@
-html{
+/******imports******/
+@import  url(bootstrap.css);
+
+
+body{
     background-image: url(https://media4.picsearch.com/is?CZ6sOvjH9V8Pk3q-5FynHHRe2zsk8dEXa-CRLT6s0-o&height=180);
     background-size: 100%;
 }
@@ -11,8 +15,11 @@ h2{
     font-size: 50px;
 }
 .info{
-    margin-left: 250px;
+
     font-size: 20px;
+}
+.col-3 {
+    background-color: antiquewhite;
 }
 .inputs{
     text-align: center;
