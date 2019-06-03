@@ -6,11 +6,15 @@ This ia an application which reads the user's inputs and determines which type o
 
 ## Behaviour Driven Development
 The program should return "Values cannot be null" when zero is entered.
-|sideA| sideB| sideC|
+|sideA| sideB| sideC|  
 |:--- | :---:| :---:|
 |  0  |  0   |   0  | 
 Output will be: values cannot be null
  
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
  The program should return "values cannot be null" when any zero entry is made.
  |sideA| sideB| sideC|
 |-----|------|------|
