@@ -5,12 +5,13 @@
 This ia an application which reads the user's inputs and determines which type of triangle can be formed if the measurements are used to form a triangle. The application checks if the measurements can form an equilateral, isosceles, scalene or cannot form a a triangle.
 
 ## Behaviour Driven Development
-The program should return "Values cannot be null" when any zero is entered.
+The program should return "Values cannot be null" when zero is entered.
 |sideA| sideB| sideC|
 |-----|------|------|
 |  0  |  0   |   0  | 
 Output will be: values cannot be null
-
+ 
+ The program should return "values cannot be null" when any zero entry is made.
  |sideA| sideB| sideC|
 |-----|------|------|
 |  0  |  20   |   10  | 
