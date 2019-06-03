@@ -10,6 +10,7 @@ The program should return "Values cannot be null" when zero is entered.
 |sideA| sideB| sideC|  
 |:--- | :---:| :---:|
 |  0  |  0   |   0  | 
+
 Output will be: values cannot be null
  
  
@@ -18,6 +19,7 @@ Output will be: values cannot be null
  |sideA| sideB| sideC|
 |-----|------|------|
 |  0  |  20   |   10  | 
+
 Output will be: values cannot be null
 
 The program should return "Not a Triangle" when values entered don't make up a triangle.
@@ -26,6 +28,7 @@ Input Examples:
 |sideA| sideB| sideC|
 |-----|------|------|
 |  2  |  2   |   10  | 
+
 Output will be : Not a triangle
 
 The program should return "Equilateral" when values entered make up an Equilateral triangle.
@@ -34,6 +37,7 @@ Input Examples:
 |sideA| sideB| sideC|
 |-----|------|------|
 |  20  |  20   |   20  | 
+
 Output will be: Equilateral
 
 The program should return "Isosceles" when values entered make up an Isosceles triangle.
@@ -42,6 +46,7 @@ Input Examples:
 |sideA| sideB| sideC|
 |-----|------|------|
 |  20  |  20   |   10  | 
+
 Output will be: Isosceles 
 
 The program should return "Scalene" when values entered make up an Equilateral triangle.
@@ -50,6 +55,7 @@ Input Examples:
 |sideA| sideB| sideC|
 |-----|------|------|
 |  20  |  20   |   20  | 
+
 Output will be: Scalene
 
 ## Setup/Installation Requirements
