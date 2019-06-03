@@ -7,7 +7,7 @@ This ia an application which reads the user's inputs and determines which type o
 ## Behaviour Driven Development
 The program should return "Values cannot be null" when zero is entered.
 |sideA| sideB| sideC|
-|-----|------|------|
+|:--- | :---:| :---:|
 |  0  |  0   |   0  | 
 Output will be: values cannot be null
  
